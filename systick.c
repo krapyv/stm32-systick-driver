@@ -1,6 +1,6 @@
 #include "systick.h"
 // the NVIC memory map lives here since it is not a STM32 defined peripheral
-#include "core_cm4.h"
+#include "core/core_cm4.h"
 
 // the static counter variable to constrain the visiblity scop to this file only
 // volatile - to tell the compiller not to optimize away its readings and not assume that the value has not changed if the main thread did not change it
